@@ -22,8 +22,28 @@
       </div>
     </header>
     <form>
-      <label for="label">Título do evento</label>
-      <input type="text" name="titulo" id="titulo" />
+      <fieldset>
+        <legend>Informações do Evento</legend>
+
+        <div class="input-whapper">
+          <label for="event-title"
+            >Título do evento <span>(mínimo 8 caracteres)</span></label
+          >
+          <input type="text" name="titulo" id="event-title" />
+        </div>
+        <div class="input-whapper">
+          <label for="event-link"
+            >Link do evento <span>(comece com https://)</span></label
+          >
+          <input type="url" name="Link" id="event-link" />
+        </div>
+        <div class="input-whapper">
+          <label for="whatsapp"
+            >Whatsapp para contato <span>(somente números)</span></label
+          >
+          <input type="number" name="whatsapp" id="whatsapp" />
+        </div>
+      </fieldset>
     </form>
   </body>
 </html>

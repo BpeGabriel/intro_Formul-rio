@@ -3,6 +3,7 @@
 }
 body {
   background: #d9d9d9;
+  font-family: Poppins;
 }
 .header {
   background-color: #121214;
@@ -42,4 +43,58 @@ body {
 
   margin-top: 24px;
   margin-bottom: 128px;
+}
+
+form {
+  margin: auto;
+  width: 736px;
+  height: 1566px;
+  background: #fafafc;
+  border-radius: 8px;
+  padding: 64px;
+
+  transform: translateY(-86px);
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  color: #32264d;
+  font-family: Archivo;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  width: 100%;
+  padding-bottom: 16px;
+
+  border-bottom: 2px solid #e6e6f0;
+}
+
+.input-whapper {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+}
+.input-whapper label {
+  color: #4e4958;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.input-whapper label span {
+  color: #c1bccc;
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+input {
+  margin: 0;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 2px solid #e6e6f0;
+  background: #fafafc;
+  height: 56px;
+  box-sizing: border-box;
 }
